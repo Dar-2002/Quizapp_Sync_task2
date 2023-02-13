@@ -1,0 +1,131 @@
+body{
+    background-image: url(qe.webp);
+}
+.cont{
+
+    margin-bottom: 100px;
+    margin-left: 300px;
+    margin-right: 100px;
+    margin-top: 110px;
+    background-size: auto;
+    background-color: rgb(212, 171, 234);
+    height: 400px;
+    width: 800px;
+    border-radius: 10px;
+    padding: 50px;
+    border:solid #444;
+     }
+    ul{
+        list-style: circle;
+        padding: 10;
+    }
+    ul li{
+        font-size: 1.2rem;
+        margin: 1.9rem 0;
+        margin-left: 900px;
+    }
+    h2{
+        padding: 1.5rem;
+        margin: 0;
+    }
+
+.box{
+    margin-bottom: 100px;
+    margin-left: 300px;
+    margin-right: 100px;
+    margin-top: 110px;
+    background-size: auto;
+    background-color: rgb(247, 188, 208);
+    height: 400px;
+    width: 800px;
+    border-radius: 10px;
+    padding: 50px;
+    border:solid #444;
+}
+.title{
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #464646;
+    font-size: 24px;
+    font-weight: 600px;
+    text-align: left;
+    font-style:bold italic;
+}
+.header{
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+ button{
+    margin-left: 350px;
+    margin-top: 30px;
+    width:100px;
+    height: 30px;
+    background-color: #f1fb30;
+    cursor: pointer;
+    font-size: 1.1rem;
+    border-radius: 10px;
+}
+button:hover{
+    background-color: #db9511;
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
+ul li{
+    font-size: 1.2rem;
+    margin: 1.5rem 0;
+}
+h2{
+    padding: 1.5rem;
+    margin: 0;
+}
+.question{
+    background-color: rgb(8, 222, 222);
+    color:black;
+    border-radius: 10px;
+    padding: 10px 15px;
+}
+.option{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin:30px 0;
+    grid-gap:15px;
+}
+.option span{
+    background-color: antiquewhite;
+    border-radius: 10px;
+    color:rgb(3, 16, 12);
+    border: 1px solid #444;
+    padding: 10px 15px;
+}
+.footer{
+    display:flex;
+    justify-content: space-between;
+
+}
+.footer button{
+    background-color: #e8e357;
+    border-radius: 5px;
+    color:black;
+    font-size: 18px;
+    border:0;
+    cursor: pointer;
+}
+
+.bbox{
+    border-top:1px solid #444;
+   
+    text-align: center;
+}
+.bbox a{
+    background-color: rgb(170, 127, 255);
+    border-radius: 10px;
+    border:0;
+    color:azure;
+    padding: 7px 15px;
+    margin-top: 30px;
+    display: inline-block;
+}
